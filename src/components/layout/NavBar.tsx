@@ -15,10 +15,15 @@ export default function NavBar() {
 
   return (
     <header className="sticky top-0 z-40 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/70 border-b">
+      <div className="bg-accent text-accent-foreground">
+        <div className="container py-2 text-center text-sm font-bold">
+          encountering any issues at adecco this your best place
+        </div>
+      </div>
       <nav className="container flex items-center justify-between py-4">
         <a href="#home" className="flex items-center gap-2">
           <span className="inline-block h-8 w-8 rounded-full bg-primary" aria-hidden />
-          <span className="text-lg font-semibold">Customer Service</span>
+          <span className="text-lg font-semibold">ADECCO Customer service</span>
         </a>
 
         <div className="hidden md:flex items-center gap-6">
